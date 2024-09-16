@@ -8,7 +8,6 @@ import { auth } from "../utils/firebase";
 import { addUser, removeUser } from "../utils/userSlice";
 import { useNavigate } from "react-router-dom";
 import { toggleGptSearchView } from "../utils/gptSlice";
-import lang from "../utils/languageConstants";
 import { SUPPORTED_LANGUAGES } from "../utils/constants";
 import { languageChange } from "../utils/configSlice";
 
