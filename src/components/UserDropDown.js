@@ -17,7 +17,7 @@ const UserDropDown = () => {
       });
   };
   return (
-    <div className=" absolute top-4 right-16 z-10">
+    <div className=" md:absolute mr-2 mt-2 md:mt-0 top-3 right-16 z-10">
       <Menu as="div" className="relative inline-block text-left">
         <div>
           <MenuButton className="  inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 ">
@@ -76,7 +76,7 @@ const UserDropDown = () => {
               <button
                 onClick={handleButton}
                 type="submit"
-                className="block w-full px-4 py-2 text-left text-sm hover:text-red-700 hover:font-bold text-gray-900 data-[focus]:bg-gray-100 "
+                className="block w-full px-2 py-2  text-left text-sm hover:text-red-700 hover:font-bold text-gray-900 data-[focus]:bg-gray-100 "
               >
                 Sign out of NetFilm-GPT
               </button>

@@ -73,7 +73,7 @@ const HeaderList = () => {
           </div>
           <button
             type="button"
-            className="relative rounded-full bg-gray-800 p-1 text-gray-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+            className="relative  rounded-full bg-gray-800 p-2 text-gray-300 hover:text-white focus:outline-none "
           >
             <span className="absolute -inset-1.5" />
             <span className="sr-only">View notifications</span>

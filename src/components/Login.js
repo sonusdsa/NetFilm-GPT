@@ -96,13 +96,6 @@ const Login = () => {
           setErrorMessage(errorCode + " " + errorMessage);
         });
     }
-
-    // if (!message) {
-    //   // Clear the fields only if there's no validation error
-    //   if (name.current) name.current.value = "";
-    //   email.current.value = "";
-    //   password.current.value = "";
-    // }
   };
 
   const toggleSignInForm = () => {
@@ -112,12 +105,16 @@ const Login = () => {
     <>
       <Header />
       <div className=" absolute">
-        <img alt="homoImg" src={image} />
+        <img
+          className=" object-cover h-screen md:h-full"
+          alt="homoImg"
+          src={image}
+        />
       </div>
       <div>
         <form
           onSubmit={(e) => e.preventDefault()}
-          className=" absolute w-1/3 h-[43rem] bg-black mt-28 mx-auto right-0 left-0 bg-opacity-80 rounded-lg"
+          className=" absolute md:w-1/3 h-[43rem] bg-black mt-28 md:mt-20 mx-auto right-0 left-0 bg-opacity-80 rounded-lg"
         >
           <h1 className=" font-bold text-3xl text-white pt-8 pl-20">
             {isSignInForm ? "Sign In" : "Sign Up"}
